@@ -1,0 +1,46 @@
+/* ProductForm.css */
+.product-form {
+    max-width: 600px;
+    width: 100%;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px auto; /* Center the form */
+  }
+  
+  .product-form h4 {
+    font-family: "Syne", sans-serif; /* Match the font style */
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333; /* Match the color */
+  }
+  
+  .product-form form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-form input {
+    padding: 10px;
+    margin: 15px 0; /* Adjust margin for spacing */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
+  
+  .product-form button {
+    padding: 10px 20px;
+    margin: 15px 0; /* Adjust margin for spacing */
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .product-form button:hover {
+    background-color: #555;
+  }

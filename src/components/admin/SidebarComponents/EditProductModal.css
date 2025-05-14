@@ -1,0 +1,53 @@
+.edit-product-modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+}
+
+.modal-content {
+    padding: 20px;
+}
+
+.modal-content h4 {
+    margin-bottom: 20px;
+    color: #444;
+}
+
+.modal-content form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.modal-content input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.modal-content button {
+    padding: 10px;
+    background-color: #222;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.modal-content button:hover {
+    background-color: #333;
+}
+
+.modal-content button[type="button"] {
+    background-color: #e74c3c;
+}
+
+.modal-content button[type="button"]:hover {
+    background-color: #c0392b;
+}
